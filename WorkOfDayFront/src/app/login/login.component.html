@@ -1,0 +1,31 @@
+<!-- [formGroup]="LoginForm" -->
+
+<div class="container-fluid g-0 login-container">
+    <form [formGroup]="LoginForm" class="login-form">
+        <h2>Login</h2>
+
+        <div class="row">
+            <div class="form-group ">
+                <label for="Email">Email</label>
+                <input type="email" formControlName="email" class="form-control" name="Email" id="Email"
+                    placeholder="Enter Email" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="Password" formControlName="password" class="form-control" name="Password" id="Password"
+                    placeholder="Enter Password" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <Button pButton label="Log In" (click)="LoginUser()" class="btn btn-primary"></Button>
+            </div>
+        </div>
+        <a class="redirect-link" href="/register">Don't have an account? Register here</a>
+        <!-- <a class="redirect-link" href="/forgot-password">Forgot Password?</a> --> <!-- Esto aun no -->
+    </form>
+</div>

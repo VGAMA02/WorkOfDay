@@ -1,0 +1,51 @@
+body{
+    background-color: #f7f7f7;
+}
+.Outdata-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232f35;
+    margin-left: -5px;
+    margin-right: 5px;
+}
+.Indata-container{
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(34, 36, 36, 0.3);
+    text-align: center;
+}
+.table-user{
+    margin-top: 12px;
+    border: 1px solid #1d58b7;
+    margin-bottom: 10px;
+    font-size: small;
+}
+.headerTable{
+   text-align: center;
+}
+.buttonHome{
+    display: block;
+    margin-left: -18px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titulo{
+    text-decoration: double;
+    border: 3px solid #1d58b7;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: solid;
+}
+.Subtitulo{
+    text-decoration: underline;
+}
+.tdAccion{
+    cursor: pointer;
+}
+.AdminTable{
+    margin-top: 50px;
+}

@@ -1,0 +1,10 @@
+Para el uso de la aplicacion se pueden generar usuarios con rol de enploye.
+por el momento solo existe un admin que es
+email: gama90@hotmail.com
+pass: gamas90
+
+la base de datos se puede montar en SQL Server usando el archivo DataBase.sql
+API hecha con .net core 6
+Front angular 16
+
+

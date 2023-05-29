@@ -1,0 +1,42 @@
+body{
+    background-color: #0f242f;
+}
+.updTask-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0f242f;
+    overflow: auto;
+}
+.select-search{
+    
+    height:150px; 
+    overflow: scroll;
+}
+.select-item{
+    width: 100%;
+}
+.btn-adjust{
+    margin-top: 10px;
+}
+.updTask-form{
+    width: 100%;
+    max-width: 800px;
+    padding: 20px 20px 0px 20px;
+    background-color: #f7f7f7;
+    border: 2px solid #1d58b7;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(34, 36, 36, 0.3);
+}
+.updTask-form h2{
+    text-align: center;
+    color: #1d58b7;
+    margin-bottom: 20px;
+    font-style: italic !important;
+}
+.SubTitle{
+    text-align: center;
+    color: #1d58b7;
+    font-style: italic !important;
+}
