@@ -1,3 +1,6 @@
+Este repositorio es para la prueba en el comporativo sidral.
+creado por brandon gama franco
+
 Para el uso de la aplicacion se pueden generar usuarios con rol de enploye.
 por el momento solo existe un admin que es
 email: gama90@hotmail.com
